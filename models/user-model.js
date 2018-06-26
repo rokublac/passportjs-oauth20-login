@@ -5,7 +5,8 @@ const Schema = mongoose.Schema;
 // create schema
 const userSchema = new Schema({
 	username: String,
-	googleid: String
+	googleid: String,
+	thumbnail: String
 });
 
 // create model. mlab will pluralize the model name ie 'users'

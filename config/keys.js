@@ -8,5 +8,8 @@ module.exports = {
 	},
 	mongodb: {
 		dbURI: 'mongodb://rokublak:test123@ds163700.mlab.com:63700/rb-oauth-test'
+	},
+	session: {
+		cookieKey: 'snapcitybackcity'
 	}
 };
