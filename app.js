@@ -1,13 +1,20 @@
 // jshint esversion:6
 
+// epxress module
 const express = require('express');
+// routes
 const authRoutes = require('./routes/oauth-routes');
 const profileRoutes = require('./routes/profile-routes');
-const passportSetup = require('./config/passport-setup');
-const mongoose = require('mongoose');
-const keys = require('./config/keys');
-const cookieSession = require('cookie-session');
+// passport and it's configuration
 const passport = require('passport');
+const passportSetup = require('./config/passport-setup');
+// mongoose - mongodb
+const mongoose = require('mongoose');
+// google, mongodb and cookie keys
+const keys = require('./config/keys');
+// cookie-session module
+const cookieSession = require('cookie-session');
+
 
 // invoke express to make an application
 const app = express();
