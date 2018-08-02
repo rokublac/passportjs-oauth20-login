@@ -3,4 +3,4 @@
 - Database created with MongoDB (hosted with mLab).
 - Currently only accessing Google+ API
 
-Credits to Shaun Pelling (aka The Net Ninja) for the information on Passport.js.
+Credits to Shaun Pelling for information on Passport.js.
